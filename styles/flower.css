@@ -23,6 +23,11 @@
 
 /* share Styles  */
 
+.max-width{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .btn{
    background-color: #E95A08;
    width: 100%;
@@ -78,11 +83,14 @@ nav ul li a{
 /* banner related style */
 
 .banner{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: bisque;
+    display:flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* background-color: bisque; */
   height: 461px;
   align-content: end;
+  margin-top: 120px;
+align-items: end;
+  
 }
 
 .banner-content-title{
