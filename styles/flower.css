@@ -158,3 +158,29 @@ align-items: end;
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+/* Plants-Lover related Style */
+
+.Plants-Lover{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 210px;
+    gap:20px;
+}
+
+.plants-lover-text{
+    width: 600px;
+    height: 521px;
+   
+}
+
+.plants-lover-pic{
+    width: 600px;
+    height: 597px;
+}
+
+.Plants-Lover ul{
+    display:grid ;
+    grid-template-rows: repeat(3,1fr);
+    gap: 40px;
+}
