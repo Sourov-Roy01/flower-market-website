@@ -57,6 +57,7 @@
 .section-title{
     font-size: 50px;
    font-weight: bold;
+   margin-bottom: 30px;
   
 }
 
@@ -166,6 +167,7 @@ align-items: end;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 210px;
     gap:20px;
+    align-items: center;
 }
 
 .plants-lover-text{
