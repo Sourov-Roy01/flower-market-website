@@ -74,6 +74,12 @@
     font-size: 65px;
 }
 
+.banner-sub-title{
+  width: 570px;
+  height: 108px;
+  margin-top: 50px;
+}
+
 
 /* Navber related style */
 .navbar{
@@ -104,6 +110,7 @@ nav ul li a{
 
 .banner{
     display:flex;
+    justify-content: space-between;
     /* grid-template-columns: repeat(2, 1fr); */
     /* background-color: bisque; */
   height: 461px;
@@ -112,6 +119,10 @@ nav ul li a{
 align-items: end;
   
 }
+
+/* .banner-image{
+  width: 100%;
+} */
 
 .banner-content-title{
     font-size: 4rem;
@@ -285,7 +296,7 @@ align-items: end;
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.4); /* অন্ধকার পর্দা */
+  background: rgba(0, 0, 0, 0.4);
   color: white;
   display: flex;
   flex-direction: column;
@@ -450,4 +461,162 @@ footer {
 .email-btn{
     margin-left: -10px;
     
+}
+
+
+
+/* responsive Design Mobile */
+
+/* @media screen and (max-with: 576px) {
+  
+  
+} */
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 576px) {
+  .nav-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+
+  .nav-item:last-child {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar{
+    margin: 0 25px;
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .nav-logo{
+    height: 38px;
+    width: 63px;
+  }
+.navber{
+  margin: 59px;
+}
+
+.banner{
+  flex-direction: column-reverse;
+  margin-top: 100px;
+  width: auto;
+ 
+ 
+}
+
+.banner-pic{
+  width: 100%;
+}
+
+.banner-content{
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.banner-content-title{
+  font-size: 40px;
+ 
+}
+
+.banner-content-description{
+  padding: 20px;
+  width: 100%;
+  margin-top: 1px;
+}
+
+
+/* Our Plants media */
+
+/* section{
+  margin: 20px 0 ;
+} */
+
+.our-plants{
+  margin-top: 10px;
+}
+
+.our-plants, .our-plants-title{
+  width: 100%;
+}
+ 
+.our-plants-title{
+  padding: 20px;
+  text-align: center;
+}
+
+.flower-item-container{
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     padding: 15px;
+   
+    
+}
+
+.flower-item{
+ 
+}
+
+/* plants lover media */
+.Plants-Lover{
+   width: 100%;
+display: flex;
+flex-direction: column;
+margin-top: 80px;
+}
+
+.Plants-Lover .lover-section-img{
+  width: 100%;
+}
+
+.plants-lover-text{
+  width: 100%;
+  
+  padding: 25px;
+}
+
+.description{
+  margin-left: 15px;
+  text-align: justify;
+}
+
+.title{
+  font-size: 2.5rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+/* newsletter media */
+
+.newsletter{
+  width:100% ;
+  padding: 0%;
+  background-position: center;
+}
+
+.newsletter-container{
+align-content: center;
+padding: 15px;
+  height: 100%;
+}
+
+.newsletter-title{
+  font-size: 30px;
+}
+
+/* footer media */
+.footer-col ul li{
+margin-bottom: 15px;
+}
+
 }
